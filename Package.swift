@@ -18,23 +18,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "StytchConsumerFramework",
-            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.0/StytchConsumerSDK.xcframework.zip",
-            checksum: "d5450d1b6634d07ed9a002dddb7625d27982a08a8510d24b57a29cca7b480361"
+            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.1/StytchConsumerSDK.xcframework.zip",
+            checksum: "0971f5fdbccba2acd72d99ede16d60fe8d9b2fe1923878c3f747ccfb7e48bee9"
         ),
         .binaryTarget(
             name: "StytchB2BFramework",
-            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.0/StytchB2BSDK.xcframework.zip",
-            checksum: "0e9cf0656ad8c73a5e2cfeef5bafe5d859875cb04f22fa3a12fee02aa01740fa"
+            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.1/StytchB2BSDK.xcframework.zip",
+            checksum: "0fbfd4640264a54a5ab3f9c6a43cae60738f4142dd587e9a34a64b984879c1e8"
         ),
         .binaryTarget(
             name: "StytchSwiftUtilsFramework",
-            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.0/StytchSwiftUtils.xcframework.zip",
-            checksum: "9a69995831f550c98a3a90392a3edd03dbed386d605282c916c19cf913af3eac"
+            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.1/StytchSwiftUtils.xcframework.zip",
+            checksum: "5c48085315186cd6f05ac389741060e4dbb236cf4c3b2ff5de06898f0c6a3dda"
         ),
         .binaryTarget(
             name: "StytchSharedFramework",
-            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.0/StytchSharedSDK.xcframework.zip",
-            checksum: "1fe908603e72718e9b644ed3c8180902ed23d26b2f3407a22186a2b71fc51ccd"
+            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.1/StytchSharedSDK.xcframework.zip",
+            checksum: "ad7af5472f729a0e0397f9be5224fdb55aa04751aa40b20e51d446895d94d8bd"
         ),
         .target(
             name: "StytchConsumerTarget",
