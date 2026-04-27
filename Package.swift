@@ -13,28 +13,28 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk", from: "18.8.1"),
-        .package(url: "https://github.com/stytchauth/stytch-ios-dfp.git", .exact("1.0.6")),
+        .package(url: "https://github.com/stytchauth/stytch-ios-dfp.git", .exact("1.0.7")),
     ],
     targets: [
         .binaryTarget(
             name: "StytchConsumerFramework",
-            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.2/StytchConsumerSDK.xcframework.zip",
-            checksum: "68c01f38b1e10bd47c998607bb6bc2042edc18a81c4a4c3ae927cc310c996ae6"
+            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.3/StytchConsumerSDK.xcframework.zip",
+            checksum: "499863b89c7b40e916e8f08480833b9058d7346ec734788f3da3c9f82f53920a"
         ),
         .binaryTarget(
             name: "StytchB2BFramework",
-            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.2/StytchB2BSDK.xcframework.zip",
-            checksum: "0036d42114a76c72fd4e7d8b8829d627a2f9b1d91ed1c5c908dc7bc6aadf49ae"
+            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.3/StytchB2BSDK.xcframework.zip",
+            checksum: "8e5a451b20de2cab6e2e576f136dd88daec0684f97aba534e4c8abc9ef15f6dd"
         ),
         .binaryTarget(
             name: "StytchSwiftUtilsFramework",
-            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.2/StytchSwiftUtils.xcframework.zip",
-            checksum: "f71acdb2b8aa9ba33a48b4be2fd52afe0d062169be793a79dff733c5576d6197"
+            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.3/StytchSwiftUtils.xcframework.zip",
+            checksum: "bd8c77acd9ae5e4dac83894616e004a1ea5cc0c1efda15e51dc6c3a78b71a499"
         ),
         .binaryTarget(
             name: "StytchSharedFramework",
-            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.2/StytchSharedSDK.xcframework.zip",
-            checksum: "d7f0f8090240e5cc9fe995019bfb8bab4cccba8fa19dd9b33567db133c63c92f"
+            url: "https://github.com/stytchauth/stytch-ios-sdk/releases/download/1.0.3/StytchSharedSDK.xcframework.zip",
+            checksum: "6cb6b6b21f194ede868d82ea134c83ee745272d6c1ff8adabfc28ec5bd3d41f9"
         ),
         .target(
             name: "StytchConsumerTarget",
